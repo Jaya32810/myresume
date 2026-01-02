@@ -1,0 +1,41 @@
+/* 
+body {
+    background-color: red;
+    background-image:url('image.jpg');
+}
+
+* {
+    font-family: Arial;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+    text-decoration: overline;
+    font-weight: bolder;
+}
+
+#beginning, #second {
+    border: solid orchid;
+}
+
+div {
+    border: solid orangered;
+} */
+div{
+    border:8px solid black;
+    background-color:blue;
+    margin: 161px;
+    padding:72px;
+}
