@@ -1,28 +1,83 @@
 <html>
 <html lang="en">
 
-<head>...</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayalakshmi G | Learner </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
     <header class="header">
         <div class="header-content">
-            <img src="jaya.jpg" alt="Jaya G">
-            <h1>Jaya G</h1>
-            <p class="role">Learner | Beginner</p>
-            <p class="location">Kurnool,Andhra Pradesh, India</p>
-            <p class-"contact">jaya.gorumanu@outlook.com | +91 1230456789</p>
+            <img src="jaya.jpg" alt="Jayalakshmi G">
+            <h1>Jayalakshmi G</h1>
+            <p class="role">Learner</p>
+            <p class="location"> Kurnool , Andhra Pradesh, India</p>
+            <p class-"contact">jayalakshmi31671@gmail.com | +91 7997560057</p>
         </div>
     </header>
 <nav class="navbar"></nav>
-<main class="container"></main>
-<footer class="footer"></footer>
-<nav>
-        <a href="#profile">Profile</a>
+<div class="nav-container">
+    <div class="nav-logo">Jayalakshmi G</div>
+    <div class="hamburger" id="hamburger">☰</div>
+    <div class="nav-menu" id="navMenu">
+        <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
-        <a href="#training">Training</a>
         <a href="#contact">Contact</a>
-    </nav>
-<script></script>
-<script></script>
+    </div>
+    </div>
+</nav>
+<main class="container">
+    <section id="about" class="card">
+        <h2>Professional Summary</h2>
+        <p>
+            A motivated student with basic programming knowledge in HTML,CSS,JavaScript and Python, 
+            eager to learn new technologies and start a career in software development.
+        </p>
+    </section>
+    <section id="skills" class="card">
+        <h2>Core Skills</h2>
+        <div class="grid">
+            <div>Python</div>
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+        </div>
+    </section>
+   <section id="projects" class="card">
+    <h2>Key Projects</h2>
+    <ul>
+        <li>Hotel Management System</li>
+        <li>Bus Management System</li>
+    </ul>
+   </section>
+   <section id="contact" class="card">
+    <h2>Contact</h2>
+    <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+   </section>
+</main>
+<footer class="footer">
+    <p>© 2025 Jayalakshmi G | Professional Resume Website</p>
+</footer>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("navMenu");
+
+    hamburger.addEventListener("click", () => {
+        navMenu.classList.toggle("show");
+    });
+});
+</script>
 </body>
+</html>
+
+
+
