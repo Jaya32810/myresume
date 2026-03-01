@@ -1,10 +1,6 @@
 * {
     box-sizing: border-box;
 }
-
-/* =====================
-   BODY BACKGROUND (MATCH IMAGE)
-===================== */
 body {
     margin: 0;
     font-family: "Segoe UI", Arial, sans-serif;
@@ -19,9 +15,6 @@ body {
     color: #e5e7eb;
 }
 
-/* =====================
-   HEADER (DARK PREMIUM)
-===================== */
 .header {
     background: linear-gradient(135deg, #020617, #020617);
     color: #e5e7eb;
@@ -49,9 +42,6 @@ body {
     opacity: 0.9;
 }
 
-/* =====================
-   NAVBAR (DARK)
-===================== */
 .navbar {
     position: sticky;
     top: 0;
@@ -91,9 +81,6 @@ body {
     color: #22d3ee;
 }
 
-/* =====================
-   HAMBURGER
-===================== */
 .hamburger {
     display: none;
     font-size: 26px;
@@ -101,18 +88,12 @@ body {
     color: #22d3ee;
 }
 
-/* =====================
-   MAIN CONTAINER
-===================== */
 .container {
     max-width: 1100px;
     margin: auto;
     padding: 40px 20px;
 }
 
-/* =====================
-   CARD / BOX (MATCH IMAGE)
-===================== */
 .card {
     background: linear-gradient(
         135deg,
@@ -139,9 +120,6 @@ body {
         0 25px 50px rgba(0,0,0,0.8);
 }
 
-/* =====================
-   CARD TEXT
-===================== */
 .card h2 {
     margin-top: 0;
     color: #22d3ee;
@@ -153,9 +131,6 @@ body {
     color: #cbd5f5;
 }
 
-/* =====================
-   GRID (SKILLS / STATS)
-===================== */
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -175,10 +150,6 @@ body {
     box-shadow:
         0 15px 30px rgba(0,0,0,0.6);
 }
-
-/* =====================
-   CONTACT FORM (ALIGNED)
-===================== */
 #contact form {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr auto;
@@ -186,7 +157,6 @@ body {
     align-items: center;
 }
 
-/* Inputs */
 #contact input,
 #contact textarea {
     background: #020617;
@@ -207,7 +177,6 @@ body {
     color: #94a3b8;
 }
 
-/* Button */
 #contact button {
     background: #22d3ee;
     color: #020617;
@@ -223,9 +192,6 @@ body {
     background: #67e8f9;
 }
 
-/* =====================
-   FOOTER
-===================== */
 .footer {
     background: #020617;
     color: #94a3b8;
@@ -234,12 +200,8 @@ body {
     border-top: 1px solid rgba(255,255,255,0.08);
 }
 
-/* =====================
-   MOBILE VIEW
-===================== */
 @media (max-width: 768px) {
 
-    /* Hamburger */
     .hamburger {
         display: inline;
     }
@@ -261,7 +223,6 @@ body {
         display: flex;
     }
 
-    /* Contact form stack */
     #contact form {
         grid-template-columns: 1fr;
     }
@@ -273,4 +234,5 @@ body {
     #contact button {
         width: 100%;
     }
+
 }
